@@ -1,16 +1,14 @@
 import ResetPassword from "@/components/ResetPassword";
 
 export default function ResetPasswordPage() {
-  return (
-    <>
-      <div className="w-full flex mt-20 justify-center">
-        <section className="flex flex-col w-[400px]">
-          <h1 className="text-3xl w-full text-center font-bold mb-6">
-            Reset Password
-          </h1>
-          <ResetPassword />
-        </section>
-      </div>
-    </>
-  );
+	return (
+		<>
+			<div className="mt-20 flex w-full justify-center">
+				<section className="flex w-[400px] flex-col">
+					<h1 className="mb-6 w-full text-center text-3xl font-bold">Reset Password</h1>
+					<ResetPassword />
+				</section>
+			</div>
+		</>
+	);
 }
